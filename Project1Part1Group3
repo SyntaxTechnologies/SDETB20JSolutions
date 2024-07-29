@@ -1,0 +1,16 @@
+# List to store temperatures for a week
+temperatures = [72, 75, 68, 70, 78, 74, 73]
+# Initialize highest and lowest temperatures
+highest_temp = temperatures[0]
+lowest
+_temp = temperatures[0]
+# Loop through the array to find highest and lowest temperatures
+for temp in temperatures:
+if temp > highest_temp:
+highest_temp = temp
+if temp < lowest_temp:
+lowest
+_temp = temp
+# Output the results
+print(f"Highest temperature of the week: {highest_temp}°F")
+print(f"Lowest temperature of the week: {lowest_temp}°F")
