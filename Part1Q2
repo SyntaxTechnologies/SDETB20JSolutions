@@ -1,0 +1,13 @@
+public class ArraySum {
+public static void main(String[] args) {
+// Create an array of integer values
+int[] numbers = {10, 20, 30, 40, 50};
+// Initialize sum variable
+int sum = 0;
+// Loop through the array to calculate the sum
+for (int num : numbers) {
+sum += num;
+}
+// Output the sum
+System.out.println("The sum of all stored elements in the array is: " + sum);
+}
